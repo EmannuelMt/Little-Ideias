@@ -1,0 +1,29 @@
+{
+  "name": "little-ideias-server",
+  "version": "1.0.0",
+  "description": "Backend para o gerenciador de ideias de sites",
+  "main": "stds/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node stds/server.js",
+    "dev": "nodemon stds/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ideas",
+    "manager",
+    "backend"
+  ],
+  "author": "Emannuel Matos",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
